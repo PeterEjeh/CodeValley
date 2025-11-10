@@ -1,20 +1,80 @@
-<div align="center">
-<img width="1200" height="475" alt="GHBanner" src="https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6" />
-</div>
+# CodeValley
 
-# Run and deploy your AI Studio app
+Empowering Africa’s Future Through Smart, Inclusive Technology.
 
-This contains everything you need to run your app locally.
+CodeValley builds an ecosystem of technology solutions — Agritech, Fintech, ClimateTech, Edutech and more — to help communities access finance, markets, transparent impact tracking, and sustainable growth.
 
-View your app in AI Studio: https://ai.studio/apps/drive/1RpycLv6fhFCcGM09TJIYWCtidWol6OCX
+This repository is the front-end for the CodeValley website and product showcase built with React + Vite and Tailwind CSS.
 
-## Run Locally
+## What's in this repo
 
-**Prerequisites:**  Node.js
+- A marketing site and product showcase for CodeValley: Home, About, Products, FAQ, Testimonials, Contact.
+- Example product pages for PoliGrain, GreenBloc, GreenValley, Church Collection, and GreenVend.
+- Reusable components for layout, header/footer, and marketing sections.
 
+## Key copy from the site
 
-1. Install dependencies:
-   `npm install`
-2. Set the `GEMINI_API_KEY` in [.env.local](.env.local) to your Gemini API key
-3. Run the app:
-   `npm run dev`
+**Mission**
+
+"To build smart, inclusive, and transparent technologies that solve real African challenges, empowering communities and fostering sustainable growth from the ground up."
+
+**Tagline**
+
+"Empowering Africa’s Future Through Smart, Inclusive Technology."
+
+**Core solutions (high level)**
+
+- PoliGrain — Smart Agriculture for Every Farmer.
+- GreenBloc — Blockchain for Sustainable Impact.
+- GreenValley — Measure, Manage, and Monetize Your Carbon Footprint.
+- Church Collection — Faith Meets Financial Transparency.
+- GreenVend — Finance and Procurement for SMEs.
+
+**Contact**
+
+- Email: CodeValley@gmail.com
+- Phone: +234 808 386 3526
+- Location: Lagos, Nigeria
+
+## Tech stack
+
+- React 19
+- Vite
+- TypeScript
+- Tailwind CSS (used in the codebase for utility classes)
+
+See `package.json` for exact dev/runtime dependencies.
+
+## Run locally
+
+Prerequisites: Node.js (LTS recommended)
+
+1. Install dependencies
+
+```powershell
+npm install
+```
+
+2. Start development server
+
+```powershell
+npm run dev
+```
+
+The vite dev server typically runs at http://localhost:5173 — open that URL to view the site.
+
+## Build for production
+
+```powershell
+npm run build
+npm run preview
+```
+
+## Contributing
+
+## Notes
+
+- This repo contains sample content and placeholders (images, videos) in `/media` used by the marketing pages.
+- If you plan to deploy this site publicly, update any placeholder assets, meta tags, and review privacy/contact details.
+
+If you'd like, I can also add a link to the live production site (if you provide it), a license file, or a short "Development" section with design tokens and Tailwind configuration.
