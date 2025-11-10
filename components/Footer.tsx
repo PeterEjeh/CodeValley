@@ -111,8 +111,8 @@ const Footer: React.FC = () => {
             <form className="mt-4 flex">
               <input
                 type="email"
-                placeholder="Email Address"
-                className="w-full px-4 py-2 text-gray-900 bg-white rounded-l-md focus:outline-none"
+                placeholder="Your Email"
+                className="w-full px-4 py-2 text-xs text-gray-900 bg-white rounded-l-md focus:outline-none placeholder:text-xs placeholder-gray-500"
               />
               <button
                 type="submit"
