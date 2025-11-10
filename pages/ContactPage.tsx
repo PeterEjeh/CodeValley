@@ -54,7 +54,7 @@ const ContactPage: React.FC = () => {
                                 </li>
                             </ul>
                             <div className="mt-8">
-                                <img src="https://picsum.photos/seed/map/600/400" alt="Map of Lagos HQ" className="rounded-lg shadow-lg w-full h-64 object-cover" />
+                                <img src="/media/contact-map.jpg" alt="Map of Lagos HQ" className="rounded-lg shadow-lg w-full h-64 object-cover" />
                             </div>
                         </div>
 

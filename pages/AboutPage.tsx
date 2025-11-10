@@ -30,7 +30,7 @@ const AboutPage: React.FC = () => {
         <div className="bg-gray-900 text-white">
             {/* Intro Banner */}
             <div className="relative bg-gray-800 py-32 text-center">
-                <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{backgroundImage: "url('https://picsum.photos/seed/landscape/1600/800')"}}></div>
+                <div className="absolute inset-0 bg-cover bg-center opacity-10" style={{backgroundImage: "url('/media/about-banner.jpg')"}}></div>
                 <div className="relative container mx-auto px-4 sm:px-6 lg:px-8">
                     <h1 className="text-4xl md:text-6xl font-extrabold">The Future of Innovation is Inclusive.</h1>
                     <p className="mt-4 text-xl text-gray-300">We are CodeValley. We build for impact.</p>

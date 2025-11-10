@@ -71,7 +71,7 @@ const HeroSection = () => (
             className="absolute z-0 w-auto min-w-full min-h-full max-w-none"
             style={{ objectFit: 'cover', top: '50%', left: '50%', transform: 'translate(-50%, -50%)' }}
         >
-            <source src="https://cdn.coverr.co/videos/coverr-abstract-glowing-particles-5100/1080p.mp4" type="video/mp4" />
+            <source src="/media/hero-video.mp4" type="video/mp4" />
             Your browser does not support the video tag.
         </video>
         <div className="absolute inset-0 bg-black opacity-60"></div>
@@ -117,7 +117,7 @@ const ScrollStorySection = () => (
                 <div className="flex flex-col md:flex-row items-center gap-12">
                     <div className="md:w-1/2">
                          <AnimatedSection>
-                            <img src="https://picsum.photos/seed/farmer1/800/600" alt="Farmer in field" className="rounded-lg shadow-2xl"/>
+                            <img src="/media/farmer.jpg" alt="Farmer in field" className="rounded-lg shadow-2xl"/>
                         </AnimatedSection>
                     </div>
                     <div className="md:w-1/2">
@@ -130,7 +130,7 @@ const ScrollStorySection = () => (
                 <div className="flex flex-col md:flex-row-reverse items-center gap-12">
                     <div className="md:w-1/2">
                          <AnimatedSection>
-                            <img src="https://picsum.photos/seed/map/800/600" alt="Digital map of a farm" className="rounded-lg shadow-2xl"/>
+                            <img src="/media/farm-map.jpg" alt="Digital map of a farm" className="rounded-lg shadow-2xl"/>
                         </AnimatedSection>
                     </div>
                     <div className="md:w-1/2">

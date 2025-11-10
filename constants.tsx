@@ -45,10 +45,10 @@ export const NAV_LINKS: NavLink[] = [
 
 // Team Members
 export const TEAM_MEMBERS: TeamMember[] = [
-  { name: 'Nosakhare Obaseki', role: 'CEO & Founder', imageUrl: 'https://picsum.photos/seed/ceo/400/400', bio: 'Visionary leader driving inclusive technology for Africa.' },
-  { name: 'Babafemi Ayinde', role: 'CTO', imageUrl: 'https://picsum.photos/seed/cto/400/400', bio: 'Expert architect of our robust and scalable platforms.' },
-  { name: 'Jane Doe', role: 'Head of Product', imageUrl: 'https://picsum.photos/seed/product/400/400', bio: 'Strategist ensuring our solutions meet real-world needs.' },
-  { name: 'John Smith', role: 'Lead Agritech Specialist', imageUrl: 'https://picsum.photos/seed/agritech/400/400', bio: 'Bridging the gap between technology and agriculture.' },
+  { name: 'Nosakhare Obaseki', role: 'CEO & Founder', imageUrl: '/media/team-ceo.jpg', bio: 'Visionary leader driving inclusive technology for Africa.' },
+  { name: 'Babafemi Ayinde', role: 'CTO', imageUrl: '/media/team-cto.jpg', bio: 'Expert architect of our robust and scalable platforms.' },
+  { name: 'Jane Doe', role: 'Head of Product', imageUrl: '/media/team-product.jpg', bio: 'Strategist ensuring our solutions meet real-world needs.' },
+  { name: 'John Smith', role: 'Lead Agritech Specialist', imageUrl: '/media/team-agritech.jpg', bio: 'Bridging the gap between technology and agriculture.' },
 ];
 
 // Products
