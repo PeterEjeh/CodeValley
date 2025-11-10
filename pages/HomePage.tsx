@@ -123,7 +123,7 @@ const ScrollStorySection = () => (
                     <div className="md:w-1/2">
                          <AnimatedSection>
                             <h3 className="text-3xl font-bold text-green-400 mb-4">Meet Kofi</h3>
-                            <p className="text-gray-300 text-lg">Kofi, a farmer in rural Ghana, faced uncertainty every season. Unpredictable weather and lack of access to markets meant his hard work didn't always pay off.</p>
+                            <p className="text-gray-300 text-lg">Kofi, a farmer in rural Nigeria, faced uncertainty every season. Unpredictable weather and lack of access to markets meant his hard work didn't always pay off.</p>
                         </AnimatedSection>
                     </div>
                 </div>
