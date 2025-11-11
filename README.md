@@ -70,11 +70,5 @@ npm run build
 npm run preview
 ```
 
-## Contributing
 
-## Notes
 
-- This repo contains sample content and placeholders (images, videos) in `/media` used by the marketing pages.
-- If you plan to deploy this site publicly, update any placeholder assets, meta tags, and review privacy/contact details.
-
-If you'd like, I can also add a link to the live production site (if you provide it), a license file, or a short "Development" section with design tokens and Tailwind configuration.
